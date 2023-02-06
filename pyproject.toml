@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "cry"
+name = "crypto"
 version = "0.1.0"
-description = "trade with crypro"
+description = "trade with crypro and more"
 authors = ["r0nny8000 <r0nny8000@bea2b.de>"]
 readme = "README.md"
 
@@ -14,7 +14,7 @@ fire = "^0.5.0"
 pylint = "^2.15.10"
 
 [tool.poetry.scripts]
-ws = "cry.cry:_main"
+cry = "crypto.cry:_main"
 
 [build-system]
 requires = ["poetry-core"]

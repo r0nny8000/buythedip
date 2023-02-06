@@ -4,13 +4,13 @@ cli
 """
 import fire
 
-from cry import binance as api
+import crypto.api.binance as api
 
 def wallet():
     """
     show balances and so on
     """
-    print(wallet)
+    api.test()
 
 
 def _main():
