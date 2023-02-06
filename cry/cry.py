@@ -4,12 +4,17 @@ cli
 """
 import fire
 
-def test(command):
-    """ 
-    haha
+from cry import binance as api
+
+def wallet():
     """
-    print(command)
+    show balances and so on
+    """
+    print(wallet)
 
 
-if __name__ == "__main__":
-    print("main")
+def _main():
+    fire.Fire()
+
+if __name__ == '__main__':
+    _main()
