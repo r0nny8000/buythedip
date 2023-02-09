@@ -26,6 +26,11 @@ Install a new module
     poetry add <module>
     poetry add -D pylint
 
+Build and Install locally
+
+    poetry build
+    pip install dist/workstream-0.1.0.tar.gz
+
 Config VSCodium
 ---------------
 
