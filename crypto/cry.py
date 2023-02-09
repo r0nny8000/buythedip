@@ -8,7 +8,7 @@ import crypto.api.binance as api
 
 def wallet():
     """
-    show balances and so on
+    show balances of the wallet
     """
     api.test()
 
