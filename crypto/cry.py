@@ -18,12 +18,20 @@ def _printLarge(msg):
     print(figlet.renderText(msg))
 
 
-def wallet():
+def account():
     """
     show balances of the wallet
     """
     _printLarge("Account")
     api.account(BINANCE_API_KEY, BINANCE_API_SEC)
+
+def prices():
+    """
+    show prices
+    """
+    _printLarge("Prices")
+    api.prices(BINANCE_API_KEY, BINANCE_API_SEC)
+
 
 def _main():
     fire.Fire()
