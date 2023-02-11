@@ -5,14 +5,15 @@ from binance import exceptions
 def getClient(api_key, api_sec):
     return Client(api_key, api_sec, {"timeout": 8})
 
+
 def printAssetBalance(asset):
     name = asset['asset']
     balance = asset['free'].rjust(16)
     print(name + "\t" + balance)
 
+
 def printSymbol(symbol):
     print(symbol['symbol'] + ":\t" + str(float(symbol['price'])).rjust(16) + " USDT")
-
 
 
 def account(api_key, api_sec):
