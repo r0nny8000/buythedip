@@ -21,6 +21,7 @@ def account(api_key, api_sec):
     printAssetBalance(client.get_asset_balance(asset='USDT'))
     printAssetBalance(client.get_asset_balance(asset='BTC'))
     printAssetBalance(client.get_asset_balance(asset='ETH'))
+    printAssetBalance(client.get_asset_balance(asset='SOL'))
     
 
 def exchange(api_key, api_sec, from_quantity, from_symbol, to_symbol):

@@ -46,7 +46,7 @@ def exchange(amount, from_symbol, to_symbol):
     """
     printHeadline("Exchange")
     api.exchange(BINANCE_API_KEY, BINANCE_API_SEC, amount, from_symbol, to_symbol)
-
+    
 
 if __name__ == '__main__':
     cli()    
